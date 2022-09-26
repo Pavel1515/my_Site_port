@@ -10,7 +10,11 @@ const Main = () => {
         РОЗРОБНИК
         <br />
         РОБЛЮ САЙТИ <br />
-        <img src={myPhoto} alt="myPhoto" /> НА ФРЕЙВОРЦІ REACT JS
+        ІНТЕРНЕТ-МАГАЗИНИ
+        <br />
+        САЙТИ ВІЗИТКИ
+        <br />
+        НА ФРЕЙВОРЦІ REACT JS
       </h1>
       <div className={style.flex}>
         <p>
