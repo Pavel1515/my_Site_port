@@ -1,0 +1,55 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  h1 {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 3px solid rgb(236, 156, 61);
+    }
+  }
+  .flex {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    p {
+      font-size: 12px;
+      width: 200px;
+      color: rgb(105, 105, 105);
+    }
+    .item {
+      text-decoration: none;
+      color: rgb(105, 105, 105);
+      margin-left: 28%;
+      width: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      border-radius: 20px;
+      background-color: rgb(236, 156, 61);
+      cursor: pointer;
+      font-weight: 600;
+    }
+  }
+  .skills {
+    text-align: center;
+    color: rgb(105, 105, 105);
+    font-size: 45px;
+    font-weight: 900;
+  }
+  .items {
+    margin-left: 25px;
+    font-size: 16px;
+    color: rgb(236, 156, 61);
+  }
+}
+.text {
+  text-align: center;
+  color: rgb(236, 156, 61);
+  font-size: 16px;
+}

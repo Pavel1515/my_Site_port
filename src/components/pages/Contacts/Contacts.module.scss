@@ -1,0 +1,26 @@
+.h1 {
+  text-align: center;
+  color: rgb(236, 156, 61);
+  font-size: 27px;
+}
+.flex {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    width: 25%;
+    height: 90px;
+    text-decoration: none;
+    color: rgb(236, 156, 61);
+    border: 3px solid rgb(236, 156, 61);
+    transition: all 1s;
+    &:hover{
+        color:rgb(7, 163, 15) ;
+    }
+  }
+}

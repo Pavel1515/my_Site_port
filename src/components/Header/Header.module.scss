@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  background-color: rgb(35, 35, 35);
+  margin: 0;
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .header {
+    padding-top: 25px;
+    height: 120px;
+    color: rgb(113, 113, 113);
+    display: flex;
+    justify-content: space-between;
+    a {
+      display: block;
+      text-decoration: none;
+      color: rgb(113, 113, 113);
+      transition: all 1s;
+      &:hover {
+        color: rgb(236, 156, 61);
+      }
+    }
+    .menu {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
