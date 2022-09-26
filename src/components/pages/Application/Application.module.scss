@@ -1,4 +1,4 @@
-.conatainer {
+.container {
   width: 1200px;
   height: 80vh;
   margin: 0 auto;
@@ -25,5 +25,33 @@
       margin-top: 12px;
       background-color: rgb(236, 156, 61);
     }
+  }
+}
+.active {
+  color: rgb(236, 156, 61);
+}
+@media (max-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
+@media (min-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
+@media (min-width: 640px) {
+  .container {
+    width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media (min-width: 960px) {
+  .container {
+    width: 960px;
   }
 }

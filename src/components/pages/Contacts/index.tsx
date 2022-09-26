@@ -5,6 +5,7 @@ const Contacts = () => {
   return (
     <div>
       <Header />
+
       <h1 className={style.h1}>Контакти:</h1>
       <div className={style.flex}>
         <a href="tel:+380638868610">+380638868610</a>

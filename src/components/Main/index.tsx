@@ -54,7 +54,9 @@ const Main = () => {
 
         <h2 className={style.skills}>Мої скили:</h2>
         {listSkill.map((el) => (
-          <p className={style.items}>--{el}--</p>
+          <p key={el} className={style.items}>
+            --{el}--
+          </p>
         ))}
       </div>
     </div>

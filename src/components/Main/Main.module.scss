@@ -53,3 +53,33 @@
   color: rgb(236, 156, 61);
   font-size: 16px;
 }
+@media (max-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
+@media (min-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
+@media (min-width: 640px) {
+  .container {
+    width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media (min-width: 960px) {
+  .container {
+    width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
