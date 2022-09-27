@@ -1,20 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
-import type { PayloadAction } from "@reduxjs/toolkit";
-import type { RootState } from "../store";
-
 interface Ilist {
-  listServices: string[];
   listSkill: string[];
 }
 
 const initialState: Ilist = {
-  listServices: [
-    "Сайти для бізнесу",
-    "Розробка інтернет магазину під ключ",
-    "Дизайн сайту",
-    "Landing page",
-    "Сайт візитка",
-  ],
   listSkill: [
     "Javascript",
     "Typescript",
