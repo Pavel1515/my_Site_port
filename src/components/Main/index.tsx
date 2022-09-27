@@ -41,7 +41,7 @@ const Main = () => {
             Вітаю, дякую, що заглянули. Я Павло, розробник сайтів. Вирішую
             завдання для бізнесу.
           </motion.p>
-          <NavLink className={style.item} to={"/add"}>
+          <NavLink className={style.item} to={"add"}>
             Зв'язатися
             <motion.span
               animate={{
